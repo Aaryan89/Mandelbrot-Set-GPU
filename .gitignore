@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+.venv-1/
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# Local IDEs & Editors
+.vscode/
+.idea/
+
+# Large generated exports (Videos & MP4s)
+*.mp4
+*.gif
+*.avi
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
