@@ -56,6 +56,7 @@ GPU_MR/
 │   ├── mandelbrot_fire_4k.png
 │   └── mandelbrot_emerald_4k.png
 ├── BENCHMARK_RESULTS.md # Auto-generated compute benchmark results table
+├── LICENSE              # MIT License file
 └── README.md            # Comprehensive project documentation
 ```
 
@@ -113,3 +114,9 @@ python main.py --generate-readme-assets
 | **Mouse Wheel** | Cursor-anchored smooth zoom in / out |
 | **Left Click + Drag** | Pan across complex plane |
 | **[ESC]** | Quit application |
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
