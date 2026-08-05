@@ -69,27 +69,33 @@ GPU_MR/
 - NVIDIA Graphics Card with CUDA Drivers
 - Windows / Linux OS
 
-### 2. Install Dependencies
+### 2. Clone the Repository
+```bash
+git clone https://github.com/Aaryan89/Mandelbrot-Set-GPU.git
+cd Mandelbrot-Set-GPU
+```
+
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Verify CUDA Hardware Detection
+### 4. Verify CUDA Hardware Detection
 ```bash
 python check_gpu.py
 ```
 
-### 4. Launch Interactive Renderer GUI
+### 5. Launch Interactive Renderer GUI
 ```bash
 python main.py
 ```
 
-### 5. Run Automated CLI Compute Benchmark Suite
+### 6. Run Automated CLI Compute Benchmark Suite
 ```bash
 python main.py --benchmark
 ```
 
-### 6. Generate 4K README Screenshot Assets
+### 7. Generate 4K README Screenshot Assets
 ```bash
 python main.py --generate-readme-assets
 ```
